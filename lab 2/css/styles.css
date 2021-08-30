@@ -1,0 +1,101 @@
+body {
+    background-color: #4C5973;
+    font-family: 'Kaisei HarunoUmi', serif;
+
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    background-color: #F26D6D;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+header {
+   padding: 20px 0;
+   background-color: #CEF299;
+   border-radius: 20px 20px 0 0;
+
+}
+
+header img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #F26D6D;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav {
+    background-color: #F26D6D;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #CEF299;
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color: #4C5973;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px;
+}
+nav a:hover {
+    background-color: #4C5973;
+    color: #CEF299;
+}
+
+main{
+background-color: #CEF299;
+padding: 20px;
+margin: 0 20px 20px 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #4C5973;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #4C5973;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #CEF299;
+    padding: 60px 0;
+    color: #F26D6D;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active{
+    background-color: #4C5973;
+    color: #CEF299;
+
+}
+.pro_head{
+    text-align: center;
+    color: #F26D6D;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
