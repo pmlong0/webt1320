@@ -85,12 +85,22 @@ footer {
 /* Desktop View */
 
 @media(min-width: 1024px) {
+    #container{
+        width: 75%;
+        margin: 20px auto;
+    }
+
     #flex {
         display: flex;
     }
     .col {
-        margin: 20px;
+        margin: 20px auto;
         width: 20%;
+    }
+    .main_img {
+        display: block;
+        margin: 20px auto;
+        width: 25%
     }
 
 }
