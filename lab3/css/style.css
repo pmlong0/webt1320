@@ -82,12 +82,15 @@ footer {
     }
 }
 
-/* Laptop View */
+/* Desktop View */
+
 @media(min-width: 1024px) {
     #flex {
         display: flex;
     }
     .col {
         margin: 20px;
+        width: 20%;
     }
+
 }
