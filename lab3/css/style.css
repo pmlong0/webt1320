@@ -37,6 +37,11 @@ header h1 {
     text-align: center;
     font-size: 2em;
 }
+
+.col p {
+    font-size: 2em;
+    text-align: center;
+}
 .col img {
     width: 50%;
 }
