@@ -35,6 +35,7 @@ header h1 {
 
 .col h2 {
     text-align: center;
+    color: #5E5F62;
     font-size: 2em;
 }
 
@@ -44,6 +45,8 @@ header h1 {
 }
 .col img {
     width: 50%;
+    width: 60%;
+    margin: 20px auto;
 }
 
 .main_img {
@@ -55,10 +58,14 @@ footer {
     text-align: center;
     border-top: 4px solid #F29422;
     font-weight: bold;
+    color: #5E5F62;
 }
+
+/* Tablet View */
 
 @media(min-width: 768px) {
     #container {
+        border-radius: 20px;
         width: 90%;
         margin: 20px auto;
     }
@@ -66,11 +73,16 @@ footer {
         width: 65%;
         margin: 20px auto;
     }
+    .col h2{
+        font-size: 2em;
+        text-shadow: 2px 1px 3px black;
+    }
     .col img {
         width: 30%;
     }
 }
 
+/* Laptop View */
 @media(min-width: 1024px) {
     #flex {
         display: flex;
