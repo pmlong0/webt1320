@@ -1,6 +1,7 @@
 body{
     background-color: #5E5F62;
     font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 img {
@@ -19,6 +20,7 @@ img {
 header {
     padding: 60px 0 ;
     border-bottom: 4px solid #F29422;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 header h1 {
@@ -37,6 +39,7 @@ header h1 {
     text-align: center;
     color: #5E5F62;
     font-size: 2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .col p {
@@ -59,6 +62,8 @@ footer {
     border-top: 4px solid #F29422;
     font-weight: bold;
     color: #5E5F62;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
 }
 
 /* Tablet View */
@@ -86,16 +91,17 @@ footer {
 
 @media(min-width: 1024px) {
     #container{
-        width: 75%;
+        width: 60%;
         margin: 20px auto;
+        border-radius: 25px;
     }
 
     #flex {
         display: flex;
     }
     .col {
-        margin: 20px auto;
-        width: 20%;
+        margin: 15px;
+        width: 50%;
     }
     .main_img {
         display: block;
