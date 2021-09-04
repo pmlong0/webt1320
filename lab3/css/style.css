@@ -13,23 +13,24 @@ img {
 /* Mobile Styles */
 
 #container {
-    background-color: #E6E7E8;
+    background-color: #BFBFBF;
     margin: 20px;
 }
 
 header {
     padding: 60px 0 ;
-    border-bottom: 4px solid #F29422;
+    border-bottom: 4px solid #0511F2;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 header h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 3px #5E5F62;
 }
 
 .col {
-    border: 4px solid #F29422;
+    border: 4px solid #0511F2;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -37,10 +38,26 @@ header h1 {
 
 .col h2 {
     text-align: center;
-    color: #5E5F62;
-    font-size: 2em;
+    color: #F2E205;
+    font-size: 1.5em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.col #spinner {
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform-style: preserve-3d;
+    text-align:center;
+  }
+  @keyframes spinner {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
 
 .col p {
     font-size: 1.5em;
@@ -59,7 +76,7 @@ header h1 {
 footer {
     padding: 60px 0;
     text-align: center;
-    border-top: 4px solid #F29422;
+    border-top: 4px solid #0511F2;
     font-weight: bold;
     color: #5E5F62;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -100,13 +117,19 @@ footer {
         display: flex;
     }
     .col {
-        margin: 15px;
-        width: 50%;
+        margin: 5px;
+        width: 60%;
+    }
+    .col img {
+        width: 350px;
+        height: auto;
+       
     }
     .main_img {
         display: block;
         margin: 20px auto;
-        width: 25%
+        width: 350px;
+        height: auto;
     }
 
 }
