@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background-color:#70BF4B;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 aut0;
+}
+
+
+/*  Mobile Styles */
+
+#container {
+    background-color: #70BF4B;
+    margin: 10px;
+}
+
+header {
+    background-image: url("../images/gcourse1.jpg");
+    background-size: cover;
+    padding: 70px 0;
+}
+
+header h1{
+    color:#F2CF8D ;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    padding: 0;
+}
+
+nav li a {
+display: block;
+background-color:  #468C58;
+color: #F2CF8D;
+height: 40px;
+line-height: 40px;
+text-align: center;
+font-size: 1.2em;
+margin: 10px 0;
+border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #70BF4B;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #F2CF8D;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid #70BF4B;
+    border-radius:  10px;
+}
+
+h2,h3 {
+     color: #468C58;
+     text-shadow: 2px 2px 2px black;
+     font-size: 1.5em;
+     text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+display: block;
+background-color:  #468C58;
+color: #F2CF8D;
+height: 40px;
+width: 200px;
+line-height: 40px;
+text-align: center;
+font-size: 1em;
+margin: 10px auto;
+border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #70BF4B;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+   text-align: center;
+   color: #468C58;
+}
+
+/*  Tablet Styles */
+
+
+/* Desktop Styles */
