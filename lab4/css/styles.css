@@ -76,6 +76,10 @@ p{
     text-align: center;
 }
 
+.col img {
+    width: 65%;
+}
+
 section img, aside img {
     width: 65%;
 }
@@ -107,17 +111,18 @@ footer {
     width: 83%;
 }
 
+
+
 audio, video {
     display: block;
-    margin: 20px auto;
-    width: 70%;
+    margin: 20px;
+    width: 75%;
 }
 
 iframe {
     display: block;
-    margin: 20px auto;
-    width: 70%;
-    height: 70%;
+    margin: 20px;
+    width: auto;
 }
 
 .gallery_img {
@@ -175,7 +180,7 @@ table {
     }
 
     .single_col {
-        width: 75% auto;
+        width: 75%;
     }
 
 }
@@ -204,7 +209,7 @@ nav li a {
     }
 
 .col {
-    width: 100%;
+    width: 90%;
     }   
 
 .col img {
@@ -213,7 +218,7 @@ nav li a {
 }
 
 .single_col {
-    width: 100%;
+    width: 83%;
 }
 
 table, tr, td {
