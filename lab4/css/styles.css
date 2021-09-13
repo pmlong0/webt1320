@@ -14,13 +14,14 @@ img {
 
 #container {
     background-color: #70BF4B;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 header {
     background-image: url("../images/gcourse1.jpg");
     background-size: cover;
-    padding: 70px 0;
+    padding: 70px 90px;
+    margin: 2px;
 }
 
 header h1{
@@ -47,7 +48,7 @@ height: 40px;
 line-height: 40px;
 text-align: center;
 font-size: 1.2em;
-margin: 10px 0;
+margin: 10px auto;
 border-radius: 10px;
 }
 
@@ -109,7 +110,24 @@ footer {
 audio, video {
     display: block;
     margin: 20px auto;
-    width: 75%;
+    width: 70%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    height: 70%;
+}
+
+.gallery_img {
+    border: 4px solid #468C58;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+table {
+    display: none;
 }
 
 /*  Tablet Styles */
@@ -157,7 +175,7 @@ audio, video {
     }
 
     .single_col {
-        width: 95%;
+        width: 75% auto;
     }
 
 }
@@ -192,4 +210,26 @@ nav li a {
 .col img {
     width: 90%;
     }
+}
+
+.single_col {
+    width: 100%;
+}
+
+table, tr, td {
+    border: 4px solid #468C58;
+    padding: 10px;
+    margin: 10px;
+}
+
+table img {
+width: 100%;
+}
+
+.gallery {
+    display: none;
+}
+
+table {
+    display: block;
 }
