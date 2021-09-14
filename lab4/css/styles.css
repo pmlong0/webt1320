@@ -188,6 +188,10 @@ table {
         width: 75%;
     }
 
+    .videos {
+       max-width: auto;
+        height: auto;
+    }
 }
 
 
