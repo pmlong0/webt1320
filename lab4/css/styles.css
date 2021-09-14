@@ -58,7 +58,7 @@ nav li a:hover {
     text-shadow: 2px 2px 2px black;
 }
 
-nav, section, aside, .col, footer {
+nav, section, aside, .col, footer, {
     background-color: #F89864;
     padding: 20px;
     margin: 10px;
@@ -107,7 +107,7 @@ footer {
 }
 
 .single_col {
-    width: 83%;
+    width: 60%;
 }
 
 
@@ -115,7 +115,7 @@ footer {
 audio, video {
     display: block;
     margin: 20px;
-    width: 75%;
+    width: 70%;
 }
 
 iframe {
