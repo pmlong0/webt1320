@@ -207,11 +207,11 @@ nav li a {
     }
 
 .col {
-    width: 80%;
+    width: 100%;
     }   
 
 .col img {
-    width: 100%;
+    width: 80%;
     }
 }
 
