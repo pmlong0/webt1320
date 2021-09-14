@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    background-color:#70BF4B;
+    background-color:#66628A;
 }
 
 img {
@@ -13,21 +13,22 @@ img {
 /*  Mobile Styles */
 
 #container {
-    background-color: #70BF4B;
+    background-color: #F2506E;
     margin: 10px auto;
 }
 
 header {
-    background-image: url("../images/gcourse1.jpg");
+    background-image: url(../images/gizz1.jpg);
     background-size: cover;
     padding: 70px 90px;
     margin: 2px;
 }
 
 header h1{
-    color:#F2CF8D ;
+    color:#BFA834 ;
     text-shadow: 2px 2px 2px black;
     text-align: center;
+
 }
 
 nav ul {
@@ -42,8 +43,8 @@ nav li {
 
 nav li a {
 display: block;
-background-color:  #468C58;
-color: #F2CF8D;
+background-color:  #8F62EF;
+color: #BFA834;
 height: 40px;
 line-height: 40px;
 text-align: center;
@@ -58,15 +59,21 @@ nav li a:hover {
 }
 
 nav, section, aside, .col, footer {
-    background-color: #F2CF8D;
+    background-color: #F89864;
     padding: 20px;
     margin: 10px;
-    border: 4px solid #70BF4B;
+    border: 4px solid #BFA834;
     border-radius:  10px;
 }
 
+.videos {
+    width: 60;
+    height: auto
+    display: block;
+}
+
 h2,h3 {
-     color: #468C58;
+     color: #8F62EF;
      text-shadow: 2px 2px 2px black;
      font-size: 1.5em;
      text-align: center;
@@ -108,7 +115,7 @@ footer {
 }
 
 .single_col {
-    width: 83%;
+    width: 60%;
 }
 
 
@@ -121,8 +128,8 @@ audio, video {
 
 iframe {
     display: block;
-    margin: 20px;
-    width: auto;
+    margin: 20px auto;
+    
 }
 
 .gallery_img {
@@ -213,12 +220,12 @@ nav li a {
     }   
 
 .col img {
-    width: 83%;
+    width: 100%;
     }
 }
 
 .single_col {
-    width: 83%;
+    width: 100%;
 }
 
 table, tr, td {
