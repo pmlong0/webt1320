@@ -67,9 +67,7 @@ nav, section, aside, .col, footer {
 }
 
 .videos {
-    width: 60;
-    height: auto
-    display: block;
+   text-align: center;
 }
 
 h2,h3 {
