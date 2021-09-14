@@ -106,10 +106,6 @@ footer {
    color: #468C58;
 }
 
-.single_col {
-    width: 60%;
-}
-
 
 
 audio, video {
@@ -211,7 +207,7 @@ nav li a {
     }
 
 .col {
-    width: 90%;
+    width: 80%;
     }   
 
 .col img {
@@ -219,9 +215,7 @@ nav li a {
     }
 }
 
-.single_col {
-    width: 100%;
-}
+
 
 table, tr, td {
     border: 4px solid #468C58;
