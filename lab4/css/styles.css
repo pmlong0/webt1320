@@ -28,6 +28,7 @@ header h1{
     color:#BFA834 ;
     text-shadow: 2px 2px 2px black;
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -66,16 +67,24 @@ nav, section, aside, .col, footer {
     border-radius:  10px;
 }
 
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
 
 h2,h3 {
      color: #8F62EF;
      text-shadow: 2px 2px 2px black;
-     font-size: 1.5em;
+     font-size: 1.8em;
      text-align: center;
 }
 
 p{
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #e47edf;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
 }
 
 
