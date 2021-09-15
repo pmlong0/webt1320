@@ -58,7 +58,7 @@ nav li a:hover {
     text-shadow: 2px 2px 2px black;
 }
 
-nav, section, aside, .col, footer, {
+nav, section, aside, .col, footer {
     background-color: #F89864;
     padding: 20px;
     margin: 10px;
