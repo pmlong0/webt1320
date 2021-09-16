@@ -16,22 +16,25 @@ img {
 #container {
     background-color: #F2506E;
     margin: 10px auto;
+
 }
 
 header {
     background-image: url(../images/gizz1.jpg);
     background-size: cover;
     padding: 70px 90px;
-    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-header h1{
+header h1 {
     color:#BFA834 ;
-    text-shadow: 2px 2px 2px black;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-
-}
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
 
 nav ul {
     list-style-type: none;
