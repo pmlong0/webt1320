@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgba(83, 73, 73, 0.692);
+}
+
+/* mobile */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    background: lightblue;
+    width: 81%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+
+}
+
+.logo-container, .nav-links, .cart {
+    display: flex;
+}
+.logo-container {
+    background: lightcoral;
+    flex: 1;
+
+}
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+nav {
+
+    background: lightseagreen;
+    flex: 2;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cart {
+    background: limegreen;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.intro {
+    flex: 1;
+}
+
+.cover {
+
+  display: block;
+  width: 65%;
+  
+}
+    
+    
