@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="/css/noramlize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap"> 
+    <script src="https://use.fontawesome.com/a8cf154935.js"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="/images/logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Records</a></li>
+                    <li><a href="">Turntable</a></li>
+                    <li><a href="">Speakers</a></li>
+                    <li><a href="">Receivers</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Your One Stop Vinyl Shop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis temporibus magni repudiandae ipsum cumque fuga eos, odio deleniti omnis ipsa accusamus, et culpa. Porro hic alias consectetur nisi nesciunt?</p>
+            <a href="" class="hero-btn">Learn More Now</a>
+        </div>
+        
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>Records In Stock</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia totam amet, quisquam, aspernatur dicta reiciendis nulla fugiat commodi numquam minima illum saepe sunt? Accusamus libero sit deserunt debitis perferendis harum.</p>
+ <div class="row">
+     <div class="course-col">
+         <h3>Receivers</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sapiente accusamus? Maiores nisi provident labore natus porro, cumque aliquid tempora reiciendis assumenda, eveniet aperiam officiis adipisci ea quisquam omnis?</p>
+     </div>
+     <div class="course-col">
+        <h3>Speakers</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sapiente accusamus? Maiores nisi provident labore natus porro, cumque aliquid tempora reiciendis assumenda, eveniet aperiam officiis adipisci ea quisquam omnis?</p>
+    </div>
+    <div class="course-col">
+        <h3>Turntables</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sapiente accusamus? Maiores nisi provident labore natus porro, cumque aliquid tempora reiciendis assumenda, eveniet aperiam officiis adipisci ea quisquam omnis?</p>
+    </div>
+ </div>
+    </section>
+
+    <!-- campus -->
+
+    <section class="campus">
+    <h1> Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus dolorum, iure harum unde distinctio facilis vel suscipit sit modi repudiandae adipisci ratione sequi eius? Sit iure accusamus suscipit similique.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="" alt="">
+        </div>
+    </div>
+    </section>
+
+
+<!-- javascript for menu bar -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right ="0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
