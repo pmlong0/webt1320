@@ -20,7 +20,7 @@ nav {
     align-items: center;
 }
 nav img{
-    width: 125px;
+    width: 400px;
     padding: 10px 60px;
     
 
@@ -194,3 +194,21 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
+
+.course-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.row img{
+    max-width: 100%;
+    height: auto;
+    width: 900px;
+    display: block;
+    align-items: center;
+
+}
+
