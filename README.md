@@ -14,4 +14,8 @@
      <li>
     <a href="lab4/index.html" target="_blank">Lab 4</a>
     </li>
+     <li>
+    <a href="final/index.html" target="_blank">Lab 4</a>
+    </li>
+    
 </ul>
