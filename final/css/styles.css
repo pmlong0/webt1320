@@ -205,7 +205,7 @@ h3{
 }
 
 .campus-col img{
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
@@ -238,6 +238,70 @@ h3{
 }
 
 .layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* Records */
+
+.row-record{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.records {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.record-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.record-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer-record {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-record:hover {
+    background: rgba(226,0,0,0.7);
+}
+
+.layer-record h3{
+    width: 100%;
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-record:hover h3{
     bottom: 49%;
     opacity: 1;
 }
