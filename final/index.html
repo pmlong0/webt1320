@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" type="text/css" href="/css/noramlize.css">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet"  href="/css/noramlize.css">
+    <link rel="stylesheet"  href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap"> 
     <script src="https://use.fontawesome.com/a8cf154935.js"></script>
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
 </head>
 <body>
     <section class="header">
@@ -20,7 +21,7 @@
                 <img src="/images/logo.png" alt="logo">
             </a>
             <div class="nav-links" id="navlinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="records.html">Records</a></li>
@@ -29,7 +30,7 @@
                     <li><a href="records.html">Receivers</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Your One Stop Vinyl Shop</h1>
@@ -91,10 +92,10 @@
     <script>
         var navlinks = document.getElementById("navlinks");
 
-        function showmenu(){
+        function showMenu(){
             navlinks.style.right ="0";
         }
-        function hidemenu(){
+        function hideMenu(){
             navlinks.style.right = "-200px";
         }
     </script>

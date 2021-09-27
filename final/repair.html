@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap"> 
     <script src="https://use.fontawesome.com/a8cf154935.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
+
 
 </head>
 <body>
@@ -20,7 +22,7 @@
                 <img src="/images/logo.png" alt="logo">
             </a>
             <div class="nav-links" id="navlinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="records.html">Records</a></li>
@@ -29,7 +31,7 @@
                     <li><a href="records.html">Receivers</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Your One Stop Vinyl Shop</h1>
@@ -41,6 +43,9 @@
     <!-- Course -->
 
     <section class="course">
+        <h1>Tips and Tricks</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9pg3YIYpq2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9pc2Xxyi6kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h1>Repair Services</h1>
  <div class="row">
      <div class="course-col">
@@ -90,10 +95,10 @@
     <script>
         var navlinks = document.getElementById("navlinks");
 
-        function showmenu(){
+        function showMenu(){
             navlinks.style.right ="0";
         }
-        function hidemenu(){
+        function hideMenu(){
             navlinks.style.right = "-200px";
         }
     </script>
